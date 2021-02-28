@@ -18,17 +18,23 @@ a:visited{
 body{
   font-family: serif, fantasy, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/*#cover{
+  border-top: 2px solid black;
+}*/
 .NavTab{
   text-align: right;
   margin: 15px;
+  border-radius: 5px;
 }
 /* background-image: url(images/solgenwhite.jpg);
   background-repeat: no-repeat;
   background-size: 70%;
 }*/
 .NavTab a{
-  padding: 1%;
-  border: solid 2px red;
+  padding: 0.8%;
+  border: solid 2px rgb(251,132,56);
+  border-radius: 5px;
+  margin: 2px, 2px, 2px, 2px;
 }
 .part1{
   background-image: url(/images/sollogo.jpg);
@@ -52,9 +58,47 @@ body{
   margin-top: 15%;
   padding: 1%;
   border: 2px solid;
+  font-weight: 800;
+  /*background-image: url(/images/midnighttrain.jpg);*/
 }
 /*Styling Albums section*/
+.part2{
+  background-image: url(/images/solgenblack.jpg);
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  border-radius: 15px;
+  padding: 2%;
+  font-style: oblique;
+  font-weight: 500;
+  font-size: 1.2em;
 
+}
+.part2 h2{
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+}
+#Albumslist{
+  width: 100%;
+  border: blueviolet;
+  position: relative;
+
+}
+#Albumslist img{
+  width: 28%;
+  border: 3px solid wheat;
+  border-radius: 5px;
+  position: absolute;
+  right: 1px;
+}
+#mwanzo{
+  width: 68%;
+  border-bottom: 3px solid red;
+} #solfilosofia, #mwanzo, #sautisol-EP, #liveinafrika, #midnighttrain, #africansauce{
+  width: 68%;
+  border-bottom: 3px solid whitesmoke;
+
+}
 /*Styling the members section*/
 .part3{
   border: 6px solid rgb(172,122,43);

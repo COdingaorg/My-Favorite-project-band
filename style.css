@@ -1,0 +1,17 @@
+a:link{
+  color: purple;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:active{
+  color:blueviolet;
+  text-decoration: underline;
+  background-color: cornsilk;
+}
+a:hover{
+  font-size: larger;
+  background-color:rgba(250, 210, 47, 0.5);
+}
+a:visited{
+  color: black;
+}

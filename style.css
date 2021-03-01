@@ -37,7 +37,7 @@ body{
   margin: 2px, 2px, 2px, 2px;
 }
 .part1{
-  background-image: url(/images/sollogo.jpg);
+  background-image: url(images/sollogo.jpg);
   background-repeat: no-repeat;
   background-size: 35%;
   background-position-x: 80%;
@@ -59,19 +59,19 @@ body{
   padding: 1%;
   border: 2px solid;
   font-weight: 800;
-  /*background-image: url(/images/midnighttrain.jpg);*/
+  /*background-image: url(images/midnighttrain.jpg);*/
 }
 /*Styling Albums section*/
 .part2{
-  background-image: url(/images/solgenblack.jpg);
-  color: gold;
+  background-image: url(images/solgenblack.jpg);
+  color: rgb(247, 245, 236);
   border: 1px solid aliceblue;
   border-radius: 15px;
   padding: 1.8%;
   font-style: oblique;
   font-weight: 500;
   font-size: 1.2em;
-  background-color: black;
+  background-color:rgba(22, 22, 22,0.4);
 
 }
 .part2 h2{
@@ -155,7 +155,7 @@ body{
 color: wheat;
 background-color: rgb(32, 32, 42);
 padding: 2%;
-background-image: url(/images/solgenwhite.jpg);
+background-image: url(images/solgenwhite.jpg);
 background-repeat: no-repeat;
 background-position-x: 80%;
 background-size: 40%;

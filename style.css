@@ -100,6 +100,10 @@ body{
   border-bottom: 3px solid whitesmoke;
 
 }
+#liveinafrika{
+  height: 230px;
+  overflow: scroll;
+}
 /*Styling the members section*/
 .part3{
   border: 6px solid rgb(172,122,43);
